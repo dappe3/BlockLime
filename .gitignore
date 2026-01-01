@@ -1,0 +1,69 @@
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+build/
+**/build/
+
+# Local config
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# =========================
+# Keystore (ÇOK ÖNEMLİ)
+# =========================
+*.jks
+*.keystore
+
+# =========================
+# Native / NDK
+# =========================
+.cxx/
+externalNativeBuild/
+
+# =========================
+# Generated / Temp
+# =========================
+captures/
+out/
+tmp/
+temp/
+
+# =========================
+# APK / AAB
+# =========================
+*.apk
+*.aab
+
+# =========================
+# Pojav / Minecraft
+# =========================
+gameDir/
+runtime/
+libraries/
+assets/
+versions/
+
+# =========================
+# Node / Electron (olursa)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# VS Code
+# =========================
+.vscode/
